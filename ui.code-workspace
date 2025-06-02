@@ -1,0 +1,33 @@
+{
+  "folders": [
+    { "name": "Root", "path": "./" },
+    { "name": "web:docs", "path": "./web/docs" },
+    { "name": "lib:base", "path": "./lib/base" },
+    { "name": "lib:cli", "path": "./lib/cli" },
+    { "name": "lib:x-ui", "path": "./lib/x-ui" }
+  ],
+  "settings": {
+    "editor.colorDecorators": true,
+    "colorize.languages": [
+      "javascriptreact",
+      "javascript",
+      "css",
+      "scss",
+      "typescript",
+      "typescriptreact"
+    ],
+    "files.exclude": {
+      "**/node_modules": false,
+      "**/.git": true,
+      "**/.svn": true,
+      "**/.hg": true,
+      "**/CVS": true,
+      "**/.DS_Store": true,
+      "**/Thumbs.db": true
+    },
+    "files.associations": {
+      "**/web/docs/**/*.css": "tailwindcss"
+    },
+    "cSpell.words": [""]
+  }
+}

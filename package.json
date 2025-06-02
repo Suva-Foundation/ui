@@ -1,0 +1,9 @@
+{
+  "name": "@suva-foundation/ui",
+  "packageManager": "yarn@4.9.1",
+  "version": "0.0.1",
+  "workspaces": [
+    "web/*",
+    "lib/*"
+  ]
+}

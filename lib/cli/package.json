@@ -1,0 +1,27 @@
+{
+  "name": "@suva-foundation/ui.lib.cli",
+  "version": "0.0.4",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "description": "CLI for Suva Foundation UI library",
+  "scripts": {
+    "prepare": "tsc",
+    "build": "tsc",
+    "dev": "tsc --watch"
+  },
+  "files": [
+    "dist",
+    "bin",
+    "README.md",
+    "LICENSE.txt"
+  ],
+  "bin": {
+    "suva-ui.lib.cli": "./bin/cli.js"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.3"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
